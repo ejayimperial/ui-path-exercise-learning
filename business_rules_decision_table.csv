@@ -1,0 +1,9 @@
+RuleID,Condition,Outcome,ExceptionType
+R1,MemberID is blank OR missing,Reject,Business
+R2,ProcedureCode is blank OR missing,Reject,Business
+R3,Amount <= 0,Reject,Business
+R4,ServiceDate is in the future,Reject,Business
+R5,EligibilityStatus = Ineligible OR CoverageExpired,Reject,Business
+R6,API timeout/500 OR transient network error,Retry,System
+R7,Amount >= 100000 (or configured threshold),Send to Action Center,None (HiTL)
+R8,All validations pass AND (if HiTL) approved,Approve,None

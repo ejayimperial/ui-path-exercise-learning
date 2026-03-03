@@ -1,0 +1,6 @@
+ClaimID,MemberID,ProviderID,ServiceDate,ReceivedDate,Amount,DiagnosisCode,ProcedureCode,FacilityType,LineOfBusiness,Region,Notes
+CLM-EDGE-001,,PRV-2048,2026-02-21,2026-03-03,3500.0,I10,99213,Clinic,Commercial,NCR,Missing MemberID
+CLM-EDGE-002,MBR-12345,PRV-2048,2026-02-16,2026-03-03,4800.0,E11.9,,Clinic,Commercial,NCR,Missing ProcedureCode
+CLM-EDGE-003,MBR-54321,PRV-7777,2026-02-11,2026-03-03,-1200.0,J06.9,81002,Lab,Medicaid,Luzon,Invalid Amount
+CLM-EDGE-004,MBR-67890,PRV-8888,2026-03-08,2026-03-03,2200.0,M54.5,36415,Hospital,Medicare,Visayas,Future ServiceDate
+CLM-EDGE-005,MBR-13579,PRV-9999,2026-02-26,2026-03-03,250000.0,K21.9,80053,Hospital,Commercial,Mindanao,High Risk - require human review

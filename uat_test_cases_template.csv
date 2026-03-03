@@ -1,0 +1,5 @@
+TestID,Scenario,Input,Steps,Expected,Actual,PassFail,Notes
+TC-001,Happy path claim eligible low risk,claims_batch_60.csv row with Amount < 100000,Run Dispatcher then Performer,Transaction = Successful; status Approved,,,
+TC-002,Missing MemberID,claims_edge_cases_5.csv CLM-EDGE-001,Run Performer on queue item,Business Exception; status Rejected; no retry,,,
+TC-003,API transient error,Any claim; simulate HTTP 500 once,Force HTTP error on first attempt,System Exception; retry; succeeds on retry,,,
+TC-004,High risk claim requires human approval,claims_edge_cases_5.csv CLM-EDGE-005,Create Action; approve; resume,Action Center task created; then Approved after approval,,,
