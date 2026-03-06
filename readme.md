@@ -77,7 +77,7 @@ Inventory counts differ between two sources.
 
 Requirements
 
-Dispatcher loads “WMS.csv” and “POS.csv”
+Dispatcher loads ["WMS.csv"](WMS.csv)  and “POS.csv”
 
 Performer matches SKU and computes delta:
 
@@ -97,7 +97,7 @@ Queue metrics (backlog, processing time)
 
 4) Python Risk Score Integration (Simple Model)
 
-Reffer to [My Script](risk_scoring.py) 'risk_scoring.py'
+Reffer to [risk_scoring.py](risk_scoring.py) 
 
 Skills: Python integration + UiPath, queue performer, robustness
 
