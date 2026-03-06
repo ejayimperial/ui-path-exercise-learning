@@ -134,7 +134,7 @@ For CLM-EDGE-005 (250k amount), output will look like:
   "risk_band": "HIGH",
   "reasons": ["VeryHighAmount>=250000", ...]
 }
-```JSON 
+
 ###
 
 5) LLM Claim Summary Generator (Structured Output)
