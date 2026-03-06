@@ -97,7 +97,7 @@ Queue metrics (backlog, processing time)
 
 4) Python Risk Score Integration (Simple Model)
 
-Reffer to 'risk_scoring.py'
+Reffer to [My Script](risk_scoring.py) 'risk_scoring.py'
 
 Skills: Python integration + UiPath, queue performer, robustness
 

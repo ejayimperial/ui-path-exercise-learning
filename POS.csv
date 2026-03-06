@@ -1,0 +1,16 @@
+BusinessDate,StoreID,SKU,ItemDescription,Category,UOM,POSOnHandQty,SoldQtyLast7Days,ReturnedQtyLast7Days,UnitPrice,LastSaleDate,CashierAdjustmentFlag,Notes
+2026-03-06,Store-001,SKU-1001,Paracetamol 500mg 20s,Rx,EA,177,17,3,34.97,2026-03-04,Y,
+2026-03-06,Store-003,SKU-1002,Ibuprofen 200mg 50s,First Aid,EA,39,26,1,139.64,2026-02-28,N,Recent promo spike
+2026-03-06,Store-002,SKU-1003,Cetirizine 10mg 10s,OTC,EA,56,29,0,223.07,2026-03-05,N,Recent promo spike
+2026-03-06,Store-001,SKU-1004,Amoxicillin 500mg 21s,Wellness,BOX,70,21,0,408.08,2026-03-03,Y,
+2026-03-06,Store-002,SKU-1005,Omeprazole 20mg 14s,First Aid,BOX,90,11,2,499.41,2026-03-05,Y,
+2026-03-06,Store-001,SKU-1006,Metformin 500mg 60s,First Aid,BOX,81,34,0,405.04,2026-03-03,N,Recent promo spike
+2026-03-06,Store-002,SKU-1007,Losartan 50mg 30s,OTC,EA,30,30,1,525.73,2026-03-06,N,Recent promo spike
+2026-03-06,Store-003,SKU-1008,Amlodipine 5mg 30s,Wellness,BOX,177,24,2,113.84,2026-02-27,N,Recent promo spike
+2026-03-06,Store-003,SKU-1009,Vitamin C 1000mg 30s,Rx,BOX,148,35,3,412.17,2026-03-02,N,
+2026-03-06,Store-003,SKU-1010,ORS Sachet 10s,Wellness,BOX,152,34,0,601.31,2026-03-06,N,Recent promo spike
+2026-03-06,Store-003,SKU-1011,Insulin Syringe 10pcs,Wellness,EA,3,32,1,511.01,2026-03-05,N,
+2026-03-06,Store-001,SKU-1012,Alcohol 70% 500ml,Wellness,BOX,152,4,1,351.77,2026-03-03,N,
+2026-03-06,Store-003,SKU-1013,Cotton Balls 100s,First Aid,EA,37,33,2,530.0,2026-03-03,N,
+2026-03-06,Store-002,SKU-1014,Bandage Roll 5cm,First Aid,EA,160,16,3,387.69,2026-03-02,Y,Cycle count pending
+2026-03-06,Store-003,SKU-1015,Antacid Chewable 24s,OTC,EA,163,0,3,363.77,2026-03-05,N,
