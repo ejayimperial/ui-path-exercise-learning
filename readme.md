@@ -153,11 +153,20 @@ For each claim, call LLM (or mock LLM via static JSON if no API access)
 
 Prompt must request JSON only:
 
+
+### Output:
+```JSON 
+{
+
 summary
 
 issues_found
 
 next_action
+
+}
+
+```
 
 Validate JSON; if malformed → retry once; if still malformed → Business Exception
 
@@ -168,6 +177,7 @@ Prompt template + versioning
 JSON outputs saved per ClaimID
 
 Token/latency logs (even if simulated)
+
 
 6) SLA Breach Watcher + Alerting
 
