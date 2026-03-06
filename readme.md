@@ -97,6 +97,8 @@ Queue metrics (backlog, processing time)
 
 4) Python Risk Score Integration (Simple Model)
 
+Reffer to 'risk_scoring.py'
+
 Skills: Python integration + UiPath, queue performer, robustness
 
 Scenario
@@ -120,6 +122,19 @@ Python script + UiPath workflow
 Logs showing score + execution time
 
 Proof of failure handling
+
+Expected Output Example
+
+For CLM-EDGE-005 (250k amount), output will look like:
+
+### Output:
+```JSON 
+{
+  "risk_score": 60-100,
+  "risk_band": "HIGH",
+  "reasons": ["VeryHighAmount>=250000", ...]
+}
+
 
 5) LLM Claim Summary Generator (Structured Output)
 
