@@ -154,7 +154,7 @@ For each claim, call LLM (or mock LLM via static JSON if no API access)
 Prompt must request JSON only:
 
 
-### Output:
+### Request:
 ```JSON 
 {
 
