@@ -77,7 +77,7 @@ Inventory counts differ between two sources.
 
 Requirements
 
-Dispatcher loads ["WMS.csv"](WMS.csv)  and “POS.csv”
+Dispatcher loads ["WMS.csv"](WMS.csv)  and  ["POS.csv"](POS.csv)
 
 Performer matches SKU and computes delta:
 
@@ -134,7 +134,8 @@ For CLM-EDGE-005 (250k amount), output will look like:
   "risk_band": "HIGH",
   "reasons": ["VeryHighAmount>=250000", ...]
 }
-
+```JSON 
+###
 
 5) LLM Claim Summary Generator (Structured Output)
 
