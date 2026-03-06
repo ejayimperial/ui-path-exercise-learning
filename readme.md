@@ -135,7 +135,7 @@ For CLM-EDGE-005 (250k amount), output will look like:
   "reasons": ["VeryHighAmount>=250000", ...]
 }
 
-###
+```
 
 5) LLM Claim Summary Generator (Structured Output)
 
