@@ -95,6 +95,8 @@ Exceptions summary
 
 Queue metrics (backlog, processing time)
 
+Output must be similar to: [WMS_POS_Reconciliation_Output.csv](WMS_POS_Reconciliation_Output.csv)
+
 4) Python Risk Score Integration (Simple Model)
 
 Reffer to [risk_scoring.py](risk_scoring.py) 
